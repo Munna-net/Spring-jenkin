@@ -12,7 +12,7 @@ class SpringJenkinApplicationTests {
 
 	public static Logger logger = LoggerFactory.getLogger(SpringJenkinApplication.class);
 	@Test
-	void contextLoads() {
+	public  contextLoads() {
 		
 		logger.info("TEST CASE eXECUTING .......");
 		logger.info("Test case executing second log statement .......");
@@ -22,3 +22,4 @@ class SpringJenkinApplicationTests {
 	}
 
 }
+
