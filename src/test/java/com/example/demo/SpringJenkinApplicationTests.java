@@ -11,15 +11,15 @@ import org.springframework.boot.test.context.SpringBootTest;
 class SpringJenkinApplicationTests {
 
 	public static Logger logger = LoggerFactory.getLogger(SpringJenkinApplication.class);
+
 	@Test
-	public     contextLoads() {
-//		
-//		logger.info("TEST CASE eXECUTING .......");
-//		logger.info("Test case executing second log statement .......");
-//		
-		assertEquals(true,true);
-		
+	public void contextLoads() {
+
+		logger.info("TEST CASE eXECUTING .......");
+		logger.info("Test case executing second log statement .......");
+
+		assertEquals(true, true);
+
 	}
 
 }
-
